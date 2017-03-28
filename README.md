@@ -6,7 +6,7 @@ This book is in python 2, which dude says is 100% the way to go. Whatever. I'll 
 Final point: this is *Learn Python* ***the Hard Way***. Read every single sentence. Type every single command. I have a hunch this book is more about programming "muscle memory" than anything else.
 
 ## Setup and run
-Run `setup.sh` to create the conda environment, install any necessary packages, and and activate the environment. Everything must be run in this conda environment to ensure stability and reproducibility. Note to self: this setup file should perfectly recreate the environment, which means that at any given time you should be able to destroy the environment with `conda remove --name pythway --all` and rebuild it by running `setup.sh`.
+Run `setup.sh` to create the conda environment, install any necessary packages, and activate the environment. Everything must be run in this conda environment to ensure stability and reproducibility. Note to self: this setup file should perfectly recreate the environment, which means that at any given time you should be able to destroy the environment with `conda remove --name pythway --all` and rebuild it by running `setup.sh`.
 
 Activating/deactivating the conda environment is pain in the ass, so add these aliases to your `.bashrc`:
 
