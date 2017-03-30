@@ -1,0 +1,12 @@
+* start with def
+* name is only chars and _
+* name followed by (
+* unique arg names in ()
+* : after ()
+* indent function lines 4 spaces
+* dedent to end function
+
+Calling the function:
+* type the name correctly
+* () immediately after name
+* pass values in (), comma separated
