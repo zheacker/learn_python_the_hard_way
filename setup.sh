@@ -5,5 +5,8 @@
 conda create --name pythway python=2 -y
 source activate pythway
 
+## in Anaconda on Windows:
+## activate pythway
+
 ## figure oout how to set execute permissions on github?
 ## do permissions set locally then pushed persist?
