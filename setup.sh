@@ -2,7 +2,8 @@
 ## Setup the conda environment (python 2)
 ## First install Anaconda from www.anaconda.org
 
-conda create --name pythway python=2 -y
+conda create --name pythway python=2.7 -y
+conda install -n pythway distribute nose -y
 source activate pythway
 
 ## in Anaconda on Windows:

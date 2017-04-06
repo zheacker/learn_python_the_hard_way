@@ -1,0 +1,59 @@
+# Gothons from Planet Percal #25
+## A space adventure game
+
+# start by writing the idea out
+Aliens have invaded a spaceship and our hero has to go through a maze of rooms defeating them so he can escape into an escape pod to the planet below. The game will be more like a Zork or adventure type game with text outputs and funny ways to die. The game will involve an engine that runs a map full of rooms or scenes. Each room will print its own description when the player enters it and then tell the engine what room to run next out of the map.
+
+# with that, describe each scene
+
+* Death: this is when the player dies and should be something funny
+* Central corridor: this is the starting point and has a Gothon already standing there you have to defeat with a joke before continuing
+* Laser Weapon Armory: this is where the hero gets a neutron bomb to blow up the ship before getting to the escape pod. It has a keypad the hero has to guess the number for
+* The Bridge: another battle scene with a Gothon where the hero places the bomb
+* Escape Pod: where the hero escapes but only after guessing the right escape pod
+
+# Now we grab all the nouns:
+--alien-- (ignore, battle system later)
+spaceship (isa scene)
+--player-- (ignore, battle system later)
+--maze--
+--room-- (same as scene)
+escape pod (isa scene)
+planet (isa scene)
+engine
+map (same as maze)
+scene (room/location/state)
+description
+death (isa scene)
+central corridor (isa scene)
+Gothon
+joke
+laser weapon armory (isa scene)
+neutron bomb
+keypad
+number
+the bridge (isa scene)
+
+# Now the verbs
+invaded
+defeating
+escape
+enters
+run next
+dies
+gets bomb
+blow up
+get into (pod)
+guess number/pod
+places bomb
+
+# organize them
+/* means is class, + means attribute, - means method
+* scene
+    + description
+    * spaceship
+    * escape pod
+    * death
+    * central corridor
+    * laser weapon armory
+    * bridge
